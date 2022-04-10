@@ -1,0 +1,274 @@
+@media only screen and (max-width: 1000px) {
+  #nav {
+    font-size: 2.5vw;
+    flex-flow: column nowrap;
+  }
+  #nav a {
+    margin: 0 10px;
+  }
+
+  #home {
+    flex-flow: column nowrap;
+  }
+  #myName {
+    width: 60%;
+    font-size: 3vw;
+  }
+  #myName h2 {
+    padding: 0;
+  }
+  #social i {
+    font-size: 3vw;
+  }
+  #myPhoto {
+    width: 60%;
+  }
+
+  #about {
+    height: auto;
+    flex-flow: column nowrap;
+  }
+  #icon {
+    width: 70%;
+  }
+  #icon img {
+    width: 100%;
+  }
+  #aboutMe {
+    width: 70%;
+    font-size: 3vw;
+  }
+  #aboutMe h1 {
+    text-align: center;
+  }
+
+  #skills {
+    flex-flow: column nowrap;
+    font-size: 3vw;
+  }
+  #skills h1 {
+    padding: 20px 0 30px 0;
+  }
+  #lang, #tools {
+    width: 70%;
+  }
+  #lang progress, #tools progress {
+    height: 20px;
+    margin-bottom: 15px;
+  }
+
+  #work {
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 2.5vw;
+  }
+  #work h1 {
+    padding: 20px 0 20px 0;
+  }
+  #edu, #exp {
+    width: 70%;
+    font-size: 3vw;
+  }
+  #edu div, #exp div {
+    min-height: 200px;
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  #projects {
+    font-size: 3vw;
+    word-wrap: break-word;
+  }
+  #projects h1 {
+    padding: 20px 0 10px 0;
+  }
+  #projects > div {
+    flex-flow: column nowrap;
+    width: 70%;
+    margin: 15px 0;
+  }
+  #projects div div:nth-child(1) {
+    width: 85%;
+  } 
+  #projects div div:nth-child(2) {
+    width: 85%;
+    padding: 0 0 5px 0;
+  }
+
+  #contact {
+    font-size: 3vw;
+  }
+  #contact h1 {
+    padding: 10px 0 15px 0;
+  }
+  #contact form {
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 70%;
+  }
+  #contact form * {
+    font-size: 3vw;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  #contact input {
+    width: 100%;
+  }
+  #contact textarea {
+    margin: 10px 0;
+  }
+  #contact button {
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 50px;
+  }
+
+  #footer {
+    font-size: 2.5vw;
+    margin-top: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  #nav {
+    height: 50px;
+    font-size: 3vw;
+    flex-flow: column nowrap;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+  }
+  #nav a {
+    margin: 0 5px;
+  }
+
+  #home {
+    flex-flow: column nowrap;
+  }
+  #myName {
+    width: 70%;
+    font-size: 3.5vw;
+  }
+  #myName h2 {
+    padding: 0;
+  }
+  #social div {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+  #social i {
+    font-size: 3vw;
+    width: 30px;
+  }
+  #myPhoto {
+    width: 70%;
+  }
+
+  #about {
+    height: auto;
+    flex-flow: column nowrap;
+  }
+  #icon {
+    width: 80%;
+  }
+  #icon img {
+    width: 100%;
+  }
+  #aboutMe {
+    width: 80%;
+    font-size: 3.5vw;
+  }
+  #aboutMe h1 {
+    text-align: center;
+  }
+
+  #skills {
+    flex-flow: column nowrap;
+    font-size: 3.5vw;
+  }
+  #skills h1 {
+    padding: 0 0 20px 0;
+  }
+  #lang, #tools {
+    width: 80%;
+  }
+  #lang progress, #tools progress {
+    height: 15px;
+    margin-bottom: 10px;
+  }
+
+  #work {
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 3vw;
+  }
+  #work h1 {
+    padding: 0 0 10px 0;
+  }
+  #edu, #exp {
+    width: 80%;
+    font-size: 3.5vw;
+  }
+  #edu div, #exp div {
+    min-height: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #projects {
+    font-size: 3.5vw;
+    word-wrap: break-word;
+  }
+  #projects h1 {
+    padding: 0 0 10px 0;
+  }
+  #projects > div {
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  #projects div div:nth-child(1) {
+    width: 90%;
+  } 
+  #projects div div:nth-child(2) {
+    width: 90%;
+    padding: 0 0 5px 0;
+  }
+
+  #contact {
+    font-size: 3.5vw;
+  }
+  #contact h1 {
+    padding: 0 0 15px 0;
+  }
+  #contact form {
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 80%;
+  }
+  #contact form * {
+    font-size: 3.5vw;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+  #contact input {
+    width: 100%;
+  }
+  #contact textarea {
+    margin: 5px 0;
+  }
+  #contact button {
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 20px;
+  }
+
+  #footer {
+    font-size: 3vw;
+    margin-top: 40px;
+    height: 50px;
+  }
+}

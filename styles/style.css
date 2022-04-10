@@ -1,0 +1,285 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/************* Navbar **************/
+
+#nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row nowrap;
+	font-size: 1.25vw;
+	font-weight: bold;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+	background-color: rgba(255, 255, 255, 0.95);
+}
+#nav a {
+	margin: 0 20px;
+}
+
+/************* Home **************/
+
+#home {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+	padding-top: 80px;
+}
+#myName {
+	width: 40%;
+	font-size: 1.25vw;
+}
+#myName h2 {
+	color: #2891e1;
+	padding-bottom: 20px;
+}
+#myName div h1 {
+	display: inline-block;
+	padding: 20px 0;
+}
+#myName div {
+	padding: 5px;
+}
+#myName i {
+	width: 30px;
+}
+#social {
+	display: flex;
+}
+#social div {
+	display: flex;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	margin: 20px 20px 10px 0;
+	border-radius: 25px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+	transition: 0.5s;
+}
+#social i {
+	font-size: 1.5vw;
+	width: 50px;
+	text-align: center;
+}
+#social a:nth-child(1) div:hover {
+	background-color: #0e76a8;
+	color: white;
+}
+#social a:nth-child(2) div:hover {
+	background-color: #3b5998;
+	color: white;
+}
+#social a:nth-child(3) div:hover {
+	background-color: #dd2a7b;
+	color: white;
+}
+#social a:nth-child(4) div:hover {
+	background-color: #08a0e9;
+	color: white;
+}
+#myPhoto {
+	width: 30%;
+}
+#myPhoto img {
+	width: 100%;
+	height: auto;
+}
+
+/************* About *************/
+
+#about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+	width: 100%;
+	height: 500px;
+}
+#icon {
+	width: 40%;
+}
+#icon img {
+	width: 80%;
+	height: auto;
+}
+#aboutMe {
+	width: 30%;
+	font-size: 1.25vw;
+	line-height: 1.5;
+}
+
+/************* Skills ************/
+
+#skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+	padding-top: 80px;
+	font-size: 1.25vw;
+}
+#skills h1 {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+#lang, #tools {
+	display: flex;
+	flex-flow: column nowrap;
+	width: calc(35% - 50px);
+	margin: 0 50px;
+}
+#lang progress, #tools progress {
+	width: 100%;
+	height: 25px;
+	margin-bottom: 20px;
+	appearance: none;
+}
+::-webkit-progress-bar {
+  background-color: #cccccc;
+}
+::-webkit-progress-value {
+  background-color: #2891e1;
+}
+
+/************* Work **************/
+
+#work {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	width: 100%;
+	padding-top: 80px;
+	font-size: 1.25vw;
+}
+#work h1 {
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+}
+#edu, #exp {
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: calc(35% - 20px);
+	margin: 0 20px;
+}
+#edu div, #exp div {
+	width: 100%;
+	min-height: 250px;
+	padding: 20px;
+	margin: 20px 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#edu div *, #exp div * {
+	padding: 5px 0;
+}
+
+/************* Projects ************/
+
+#projects {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	font-size: 1.25vw;
+	padding-top: 80px;
+}
+#projects > div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row nowrap;
+	width: 70%;
+	margin: 20px 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#projects h1 {
+	padding: 40px 0;
+}
+#projects div div:nth-child(1) {
+	width: 25%;
+} 
+#projects div div:nth-child(2) {
+	width: 60%;
+}
+#projects img {
+	width: 100%;
+}
+#projects div div:nth-child(2) * {
+	padding: 10px 0;
+}
+
+/************* Contact *************/
+
+#contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	width: 100%;
+	padding-top: 80px;
+	font-size: 1.25vw;
+}
+#contact h1 {
+	text-align: center;
+	padding: 50px 0;
+}
+#contact form {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	width: 70%;
+}
+#contact form * {
+	font-size: 1.25vw;
+	padding: 10px 20px;
+	border: none;
+	background-color: #eeeeee;
+}
+#contact input {
+	width: 31%;
+}
+#contact textarea {
+	width: 100%;
+	margin: 40px 0;
+	line-height: 1.5;
+}
+#contact button {
+	width: 20%;
+	margin: 0 auto;
+	background-color: #2891e1;
+	color: white;
+	font-weight: bold;
+	padding: 15px 0;
+	border-radius: 10px;
+}
+
+/************* Footer *************/
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	height: 90px;
+	background-color: #222222;
+	color: white;
+	font-size: 1.25vw;
+}
