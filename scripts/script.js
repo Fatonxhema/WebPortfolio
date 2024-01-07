@@ -21,7 +21,7 @@ function all() {
 	if (document.documentElement.scrollTop >= scrolled) {
 		count++;
 		if (count == 1) {
-			for (i = 0; i < 12; i++) {
+			for (let i = 0; i < 12; i++) {
 				progress(i);
 			}
 		}
